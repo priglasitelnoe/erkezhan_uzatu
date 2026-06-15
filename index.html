@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="kk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Erkezhan qyz uzatu</title>
+    <meta
+      name="description"
+      content="Еркежан қыз ұзату тойына арналған шақыру"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="invite" aria-label="Еркежан қыз ұзату шақыру сайты">
+      <section class="screen hero" id="home" aria-label="Басты бет">
+        <div class="hero__veil"></div>
+        <div class="hero__content reveal">
+          <p class="kicker">Еркежан қыз ұзату</p>
+          <span class="name-glow">
+            <img
+              class="name-art"
+              src="имя девушки.png"
+              alt="Erkezhan"
+              width="1156"
+              height="498"
+            />
+          </span>
+          <p class="hero__date">15 шілде · 17:00</p>
+        </div>
+        <p class="hero__bottom">qyz uzatu</p>
+      </section>
+
+      <section class="screen floral intro" id="invitation" aria-label="Шақыру мәтіні">
+        <div class="text-flow reveal">
+          <p class="script-title">Құрметті ағайын-туыс,<br />құда-жекжат, дос-жаран!</p>
+          <p>Сіздерді аяулы қызымыз</p>
+          <h1>Еркежанның</h1>
+          <p>
+            ұзату тойына арналған ақ<br />
+            дастарханымыздың қадірлі<br />
+            қонағы болуға шақырамыз.
+          </p>
+          <p>
+            Келіп, қуанышымызға ортақ<br />
+            болып, ақ батаңызды<br />
+            беріңіздер!
+          </p>
+        </div>
+      </section>
+
+      <section class="screen date-screen" id="date" aria-label="Күні мен уақыты">
+        <div class="date-content reveal">
+          <p class="kicker dark">Той күні</p>
+          <h2>15 шілде</h2>
+          <p class="time">17:00</p>
+          <div class="calendar" aria-label="15 шілде 2026">
+            <span>Сәрсенбі</span>
+            <strong>2026</strong>
+          </div>
+          <div class="countdown" aria-label="Тойға дейінгі уақыт">
+            <div>
+              <strong id="days">00</strong>
+              <span>күн</span>
+            </div>
+            <div>
+              <strong id="hours">00</strong>
+              <span>сағ</span>
+            </div>
+            <div>
+              <strong id="minutes">00</strong>
+              <span>мин</span>
+            </div>
+            <div>
+              <strong id="seconds">00</strong>
+              <span>сек</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen location-screen" id="location" aria-label="Мейрамхана мекенжайы">
+        <div class="location-content reveal">
+          <p class="kicker dark">Мекенжай</p>
+          <h2>Шубартау</h2>
+          <p class="address">Ресторан Шубартау · Семей қаласы, Ақжол 2/2</p>
+          <a
+            class="button button--map"
+            href="https://2gis.kz/semey/geo/70000001051886713"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            2GIS картаны ашу
+          </a>
+        </div>
+      </section>
+
+      <section class="screen rsvp-screen" id="rsvp" aria-label="Қатысу жауабы">
+        <div class="rsvp-content reveal">
+          <p class="kicker dark">Жауабыңыз</p>
+          <h2>Тойға келесіз бе?</h2>
+          <form class="rsvp-form" id="rsvp-form">
+            <label>
+              <span>Аты-жөніңіз</span>
+              <input
+                type="text"
+                name="guestName"
+                autocomplete="name"
+                placeholder="Аты-жөніңіз"
+              />
+            </label>
+            <label>
+              <span>Қанша адам келеді?</span>
+              <input
+                type="number"
+                name="guestCount"
+                min="1"
+                inputmode="numeric"
+                placeholder="1"
+              />
+            </label>
+            <fieldset>
+              <legend>Келесіз бе?</legend>
+              <label>
+                <input type="radio" name="attendance" value="Келемін" checked />
+                <span>Келемін</span>
+              </label>
+              <label>
+                <input type="radio" name="attendance" value="Келмеймін" />
+                <span>Келмеймін</span>
+              </label>
+            </fieldset>
+            <button class="button" type="submit">WhatsApp-қа жіберу</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="screen final-screen" id="final" aria-label="Қорытынды тілек">
+        <div class="final-content reveal">
+          <p>
+            Қуанышымыздың куәсі болып,<br />
+            ақ тілектеріңізбен бөлісуге<br />
+            келіңіздер!
+          </p>
+          <p>
+            Сіздердің келулеріңіз біз үшін<br />
+            үлкен құрмет әрі ерекше<br />
+            қуаныш.
+          </p>
+          <p class="hosts">
+            Ізгі ниетпен, той иелері<br />
+            <span>Ержан-Айжан</span>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <nav class="dots" aria-label="Беттер">
+      <a href="#home" aria-label="Бірінші бет"></a>
+      <a href="#invitation" aria-label="Екінші бет"></a>
+      <a href="#date" aria-label="Үшінші бет"></a>
+      <a href="#location" aria-label="Төртінші бет"></a>
+      <a href="#rsvp" aria-label="Бесінші бет"></a>
+      <a href="#final" aria-label="Алтыншы бет"></a>
+    </nav>
+
+    <button class="music-toggle" type="button" aria-label="Музыканы қосу немесе өшіру">
+      ♪
+    </button>
+    <audio
+      id="wedding-music"
+      src="Дания_Арманқызы_Қыз_Ұзату_премьера_клипа_2024.mp3"
+      preload="auto"
+      autoplay
+    ></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
